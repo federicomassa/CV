@@ -1,0 +1,247 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Wenneker Resume/CV
+% LaTeX Template
+% Version 1.1 (19/6/2016)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com) with extensive modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,12pt]{article} % Font and paper size, changed from memoir to article
+
+\input{structure.tex} % Include the file specifying document layout and packages
+\usepackage{graphicx}
+\usepackage{tabu}
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION 
+%----------------------------------------------------------------------------------------
+
+\userinformation{ % Set the content that goes into the sidebar of each page
+\begin{flushright}
+% Comment out this figure block if you don't want a photo
+\includegraphics[width=0.6\columnwidth]{photo.jpg}\\[\baselineskip] % Your photo
+\small % Smaller font size
+Federico Massa \\ % Your name
+\url{fedemassa91@gmail.com}  \\
+%\url{gmail.com} \\ % Your email address
+%\url{www.johnsmith.com} \\ % Your URL
+(+39) 347-7034248 \\ % Your phone number
+\Sep % Some whitespace
+\textbf{Address} \\
+Via G. B. Pellizzi, 6 \\ % Address 1
+56127 Pisa (PI) \\ % Address 2
+Italy \\ % Address 3
+\vfill % Whitespace under this block to push it up under the photo
+\end{flushright}
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\userinformation % Print your information in the left column
+
+\framebreak % End of the first column
+
+%----------------------------------------------------------------------------------------
+%	HEADING
+%----------------------------------------------------------------------------------------
+
+\cvheading{Federico Massa} % Large heading - your name
+
+\cvsubheading{Physicist} % Subheading - your occupation/specialization
+
+%----------------------------------------------------------------------------------------
+%	ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{About Me}{I was born in Cagliari in 1991, where I attended high school and received a Bachelor Degree in
+Physics. Then I moved to Pisa to study for a Master's Degree in Experimental Particle Physics, where I am going to graduate with a thesis on the Monte Carlo simulation of a particle tracker. 
+I am very passionate about the software aspect of my work, and I would like to apply 
+my knowledge to the technology field.}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\CVSection{Education}
+
+%------------------------------------------------
+
+\CVItem{2013 - 2016, Universit\`a di Pisa}{MSc in Physics of Fundamental Interactions (Graduation in Sep. 2016).}
+
+%------------------------------------------------
+%\CVItem{Jun 2016: Alghero}{Attendance to the XIII Seminar on Nuclear, Subnuclear and Applied Physics}
+
+%\CVItem{Aug 2014: Göttingen}{Attendance to the HASCO Summer School on Hadron Colliders}
+
+\CVItem{2010 - 2013, Universit\`a degli Studi di Cagliari}{BSc in Physics - 110/110 cum laude.}
+
+%------------------------------------------------
+
+\CVItem{2005 - 2010, Liceo Scientifico Pitagora - Selargius (CA)}{High School Diploma (Diploma di Maturit\`a Scientifica) - 100/100 cum laude.}
+
+%\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+%\CVSection{Experience}
+
+%------------------------------------------------
+
+During the BSc I received strong foundations on Mathematics, Classical Physics, basic experimental
+techniques, statistics and electronics (FPGA design with Quartus II, using Verilog for hardware
+description). My BSc thesis was focused on the phenomenological simulation of a particle detector
+to assess the feasibility of an experiment with the goal of measuring the sensibility to
+new physics processes.\\
+
+During the MSc, instead, I focused on several experimental aspects regarding High Energy Physics,
+which included a more deep study on Statistical Data Analysis, Electronics and Monte Carlo simulations. I also attended a course on Image Processing and Computer Vision. My MSc
+thesis focused on the Monte Carlo simulation and the analysis of performance of different proposed 
+configurations of the Inner Tracker (ITk), which is designed to track charged particles produced during the proton-proton collisions, and will replace the current Inner Detector of the ATLAS experiment during the high-luminosity phase of the Large Hadron Collider (Geneva), in 2026. \\
+
+During the MSc, I attended the HASCO Summer School on Hadron Colliders in Göttingen,  
+ and the XIII Seminar on Nuclear, Subnuclear and Applied Physics in Alghero (see attachments). The latter was
+ centered on the study of the Geant4 software package (a framework to simulate the
+ interaction of particles with matter) and GPU parallel programming. \\
+%------------------------------------------------
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS
+%----------------------------------------------------------------------------------------
+\CVSection{Languages}
+\begin{table}[h!]
+\centering
+\resizebox{.71\textwidth}{!}{\tabulinesep=1.2mm{\begin{tabu}{| l | c | c | c | c | c |}
+\cline{2-6}
+\multicolumn{1}{c}{ } & \multicolumn{2}{|c|}{\textbf{Understanding}} & \multicolumn{2}{c|}{\textbf{Speaking}} & \textbf{Writing} \\ \cline{2-6}
+\multicolumn{1}{c}{ } & \multicolumn{1}{|c|}{Listening} & Reading & Spoken interaction & Spoken production & \\ \hline
+English & C1 & C1 & C1 & C1 & C1 \\ \hline
+Spanish & B2 & B2 & B2 & B2 & B2 \\ \hline
+\end{tabu}}}
+\end{table}
+
+The corresponding certificates can be found in the attachments.
+
+\clearpage
+\userinformation
+\framebreak
+
+\CVSection{Communication Skills}
+
+%------------------------------------------------
+
+\CVItem{2015-2016, \textit{Oral Presentations}}{During my Master's Degree thesis,
+ I presented my work a large number of times to different ATLAS research groups: 
+ \begin{itemize}
+ \item ATLAS Pisa;
+ \item ITk Simulation \& Performance;
+ \item Upgrade Tracking;
+ \item Physics Upgrade;
+ \item ITk Layout Taskforce.
+ \end{itemize}
+ }
+
+%------------------------------------------------
+\Sep
+I really enjoy, and I have a many years' experience in teaching Physics and Mathematics to students from Middle School to BSc.\\
+
+%------------------------------------------------
+
+%\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+
+\CVSection{Software Skills}
+
+%------------------------------------------------
+
+\CVItem{Programming}
+{\begin{tabular}{p{0.2\textwidth} p{0.2\textwidth} p{0.2\textwidth}}
+\bluebullet C++ &  \bluebullet Java & \bluebullet Unix shell\\
+\bluebullet Python &  \bluebullet Mathematica & \bluebullet Matlab\\
+\bluebullet Fortran 90 & \bluebullet Visual Basic & \\
+\end{tabular}}
+
+%------------------------------------------------
+
+\CVItem{Operative systems}
+{\begin{tabular}{p{0.2\textwidth} p{0.2\textwidth} p{0.2\textwidth}}
+ \bluebullet Windows &  \bluebullet Linux & \bluebullet Android\\
+\end{tabular}}
+
+%-----------------------------------------------
+
+\CVItem{Computer software}
+{\begin{tabular}{p{0.2\textwidth} p{0.2\textwidth} p{0.2\textwidth}}
+ \bluebullet Internet browsers & \bluebullet Microsoft Office & \bluebullet LaTeX \\
+ \bluebullet ROOT Framework & \bluebullet Geant4 & \bluebullet Gnuplot \\
+ \bluebullet Qt Creator & \bluebullet Eclipse & \bluebullet Android Studio \\
+\end{tabular}}
+
+
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	NEW PAGE DELIMITER
+%	Place this block wherever you would like the content of your CV to go onto the next page
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	AWARDS
+%----------------------------------------------------------------------------------------
+
+%\CVSection{Awards}
+
+%------------------------------------------------
+
+%\CVItem{2010, \textit{Postgraduate Scholarship}, Cornell University}{Awarded to the top student in their final year of a Bachelors degree.}
+
+%------------------------------------------------
+
+%\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS
+%----------------------------------------------------------------------------------------
+
+\CVSection{Interests}
+
+%------------------------------------------------
+
+\CVItem{Professional}{Data analysis, company profiling, risk analysis, economics, web design, web app creation, software design, marketing}
+
+%------------------------------------------------
+
+\CVItem{Personal}{Piano, chess, cooking, dancing, running}
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
